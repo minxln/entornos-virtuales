@@ -1,0 +1,28 @@
+body{
+    background-color: #09324f;
+    color: #e1efff;
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+li{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: #e1efff;
+}
+
+.responsive{
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

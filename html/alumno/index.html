@@ -58,16 +58,16 @@
         </a>
         <ul class="navbar-nav d-flex justify-content-center align-items-center">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Sobre m&iacute;</a>
+            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre m&iacute;</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Proyectos</a>
+            <a class="nav-link" href="#proyectos">Proyectos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link">Testimonios</a>
+            <a class="nav-link" href="#testimonios">Testimonios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link">Contacto</a>
+            <a class="nav-link" href="#contacto">Contacto</a>
           </li>
         </ul>
        
@@ -96,7 +96,7 @@
   </section>
 
   <!-- About me-->
-  <section class="sobre-mi seccion-oscura">
+  <section id="sobre-mi" class="sobre-mi seccion-oscura">
     <div class="contenedor">
       <h2 class="seccion-titulo">Conoce a Fulanito</h2>
       <p class="seccion-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore earum consequuntur nostrum? Qui, maxime nulla rerum reprehenderit nobis aspernatur voluptatibus soluta beatae saepe debitis pariatur nihil odit dolorem vero aliquam.</p>
@@ -149,7 +149,7 @@
   </section>
 
   <!-- Proyectos -->
-  <section class="proyectos-recientes seccion-clara d-flex flex-column">
+  <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
     <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
     <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
     <!--Galeria de proyectos-->
@@ -306,7 +306,7 @@
   </section>
 
   <!-- Testimonios -->
-  <section class="testimonios seccion-clara">
+  <section id="testimonios" class="testimonios seccion-clara">
     <h2 class="seccion-titulo">Testimonios</h2>
     <h3 class="seccion-descripcion">Estos son algunos de los testimonios de mis clientes...</h3>
 
@@ -364,19 +364,50 @@
   </section>
 
   <!-- Contacto -->
-  <section class="contacto seccion-oscura">
+  <section id="contacto" class="contacto seccion-oscura">
     <div class="container">
-      <div class="container text-center d-flex justify-content-evenly">
+      <div class="container text-center rectangulo d-flex justify-content-evenly">
         <div class="row">
           <div class="col-12 col-md-4 seccion-titulo">
-            Hablemos
+            Hablemos!
           </div>
-          <div class="col"></div>
+          <div class="col-12 col-md-4 descripcion">
+            Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se haga realidad.
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="mailto:janedoe@micorreo.com">
+              <button type="button">
+                Contacto
+                <i class="bi bi-envelope-check-fill"></i>
+              </button>
+            </a>
+          </div>
         </div>
       </div>
-
     </div>
   </section>
+
+  <!-- Pie de pagina (footer) -->
+  <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+    <img class="footer-logo" src="./images/icono-blanco.svg" alt="logo del portafolio">
+    <p class="footer-texto text-center">Aprendo y creo todos los días. <br> Creemos un proyecto juntos.
+    </p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+      <a href="https://twitter.com/freecodecamES" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-twitter-x"></i>
+      </a>
+      
+      <a href="https://github.com/beztao01/entornos-virtuales" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+      
+      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+      
+      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
+      
+      <a href="mailto:janedoe@micorreo.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-envelope"></i></a>
+      
+    </div>
+    <div class="derechos-autor">Creado por Jane Doe (2023) &#169;</div>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>

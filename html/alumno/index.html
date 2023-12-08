@@ -39,6 +39,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -304,46 +307,75 @@
 
   <!-- Testimonios -->
   <section class="testimonios seccion-clara">
-    <h2 class="seccion-titulo">
-      Testimonios
-    </h2>
-    <h3 class="seccion-descripcion">
-      Estos son algunos de los testimonios de mis clientes...
-    </h3>
+    <h2 class="seccion-titulo">Testimonios</h2>
+    <h3 class="seccion-descripcion">Estos son algunos de los testimonios de mis clientes...</h3>
 
-    <!--Carrusel-->
-    <div id="testimonios-carrusel" class="carousel carousel dark slide" data-ride="carousel">
+    <!-- Carrusel -->
+    <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="container">
-            <img class="testimonios-imagen rounded-circle" src="./images/cliente1.svg" alt="Foto de Gino">
-            <p class="textimonio texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula, arcu ut aliquet consectetur, odio magna iaculis diam, ut faucibus orci mi at turpis</p>
+            <img class="testimonio-imagen rounded-circle" src="./images/cliente1.svg" alt="Foto de Gino">
+            <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque purus vel elementum pellentesque.</p>
+            <div class="testimonio-info">
 
-            <div class="textimonio-info">
               <p class="cliente">Gino</p>
               <p class="cargo">Gerente de proyectos en DesarrolloWeb</p>
             </div>
           </div>
+          
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="./images/cliente2.svg" alt="Foto de Nora">
+            <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque purus vel elementum pellentesque.</p>
+            <div class="testimonio-info">
 
+              <p class="cliente">Nora</p>
+              <p class="cargo">Gerente de DiseñaMiPaginaWeb</p>
+            </div>
+          </div>
 
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="./images/proyecto2.png" alt="Second slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="./images/proyecto3.png" alt="Third slide">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="./images/cliente3.svg" alt="Foto de Leonardo">
+            <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque purus vel elementum pellentesque.</p>
+            <div class="testimonio-info">
+
+              <p class="cliente">Leonardo</p>
+              <p class="cargo">Director de AprendeAProgramar</p>
+            </div>
+          </div>
+
         </div>
       </div>
-      <a class="carousel-control-prev" href="#testimonios-carrusel" role="button" data-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Anterior</span>
-      </a>
-      <a class="carousel-control-next" href="#testimonios-carrusel" role="button" data-slide="next">
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Siguiente</span>
-      </a>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
     </div>
 
+
+  </section>
+
+  <!-- Contacto -->
+  <section class="contacto seccion-oscura">
+    <div class="container">
+      <div class="container text-center d-flex justify-content-evenly">
+        <div class="row">
+          <div class="col-12 col-md-4 seccion-titulo">
+            Hablemos
+          </div>
+          <div class="col"></div>
+        </div>
+      </div>
+
+    </div>
   </section>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
